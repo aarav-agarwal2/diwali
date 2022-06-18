@@ -1,0 +1,120 @@
+body
+{
+  background-image: url("rama.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.para1
+{
+  text-align: left;
+  text-decoration: none;
+  /*color: #87CEEB;*/
+  color: blue;
+  /*background-color: blue;*/
+  text-transform: capitalize;
+  word-break: normal;
+  opacity: 5000;
+  font-family: cursive;
+  font-size: 250%;
+}
+
+h1
+{
+  text-align: left;
+  text-decoration: underline;
+  /*color: #87CEEB;*/
+  /*color: blue;*/
+  /*background-color: blue;*/
+  text-transform: capitalize;
+  word-break: normal;
+  opacity: 5000;
+  font-family: fantasy;
+}
+
+img
+{
+  width: 500px;
+  height: 400px;
+  margin-top: -400px;
+  float: right;
+}
+
+.list
+{
+  text-align: left;
+  text-decoration: none;
+  /*color: #87CEEB;*/
+  /*color: blue;*/
+  /*background-color: blue;*/
+  text-transform: uppercase;
+  word-break: normal;
+  opacity: 5000;
+  font-family: cursive;
+  font-size: 100%;
+  font-weight: bolder;
+}
+
+ol
+{
+  text-align: left;
+  text-decoration: none;
+  /*color: #87CEEB;*/
+  /*color: blue;*/
+  /*background-color: blue;*/
+  text-transform: capitalize;
+  word-break: normal;
+  opacity: 5000;
+  font-family: cursive;
+  font-size: 100%;
+}
+
+a
+{
+    font-weight: bolder;
+    font-size: 120%;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: cursive;
+}
+
+a:link
+{
+  /*color: blue;
+  background-color: transparent;
+  text-decoration: none;*/
+  background-color: blue;
+  color: orange;
+  padding: 15px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+a:visited
+{
+  /*color: purple;
+  background-color: transparent;
+  text-decoration: none;*/
+  background-color: blue;
+  color: orange;
+  padding: 15px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+a:hover
+{
+  color: blue;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:active
+{
+  color: blue;
+  background-color: transparent;
+  text-decoration: none;
+}

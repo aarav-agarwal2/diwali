@@ -1,0 +1,137 @@
+body
+{
+  background-image:url("rama.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  overflow: hidden;
+}
+
+.greet
+{
+  text-align: left;
+  text-decoration: none;
+  /*color: #87CEEB;*/
+  color: blue;
+  /*background-color: blue;*/
+  text-transform: capitalize;
+  word-break: normal;
+  opacity: 5000;
+  font-family: cursive;
+  font-size: 190%;
+  font-weight: bolder;
+}
+
+.crack
+{
+  height: 210px;
+  width: 360px;
+  margin-right: 80px;
+  margin-left: 20px;
+}
+
+.diy
+{
+  height: 210px;
+  margin-right: 80px;
+  width: 330px;
+}
+
+.sweet
+{
+  width: 450px;
+  height: 210px;
+}
+
+.describe
+{
+  font-size: 160%;
+  font-family: cursive;
+  color: #0000FF;
+  /*color: #87CEFA;*/
+  /*background-color: blue;*/
+  text-align: left;
+  text-transform: capitalize;
+  font-weight: bolder;
+}
+
+h3
+{
+  font-size: 154%;
+  font-family: cursive;
+  /*color: #87CEFA;*/
+  /*background-color: blue;*/
+  text-align: center;
+  text-transform: capitalize;
+  word-break: normal;
+  font-weight: bolder;
+  color: #0000FF;
+}
+
+.links
+{
+    font-weight: bolder;
+    font-size: 120%;
+    text-align: center;
+    text-transform: uppercase;
+    word-spacing: 15px;
+    font-family: cursive;
+}
+
+.ht
+{
+  text-align: center;
+  margin-top: -50px;
+  font-weight: bolder;
+  font-family: cursive;
+  font-size: 180%;
+  text-decoration: underline;
+  color: blue;
+  animation:blinkingText 1s linear infinite;
+}
+
+@keyframes blinkingText{
+    0%{opacity: 0;}
+   50%{opacity: .5;}
+  100%{opacity: 1;}
+}
+
+a:link
+{
+  /*color: blue;
+  background-color: transparent;
+  text-decoration: none;*/
+  background-color: #f44336;
+  color: white;
+  padding: 15px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+a:visited
+{
+  /*color: purple;
+  background-color: transparent;
+  text-decoration: none;*/
+  background-color: #f44336;
+  color: white;
+  padding: 15px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+a:hover
+{
+  color: red;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:active
+{
+  color: red;
+  background-color: transparent;
+  text-decoration: none;
+}

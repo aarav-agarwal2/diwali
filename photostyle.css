@@ -1,0 +1,93 @@
+body
+{
+  background-color: orange;
+  overflow: hidden;
+}
+
+h1
+{
+  text-align: left;
+  text-transform: capitalize;
+  color: blue;
+  font-family: cursive;
+  font-size: x-large;
+}
+
+.cr
+{
+  height: 210px;
+  width: 360px;
+}
+
+.di
+{
+  height: 210px;
+  width: 330px;
+}
+
+.sw
+{
+  width: 450px;
+  height: 210px;
+}
+
+.ma
+{
+  width: 500px;
+  height: 350px;
+}
+
+.ra
+{
+  width: 500px;
+  height: 350px;
+}
+
+a
+{
+    font-weight: bolder;
+    font-size: 120%;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: cursive;
+}
+
+a:link
+{
+  /*color: blue;
+  background-color: transparent;
+  text-decoration: none;*/
+  background-color: cyan;
+  color: silver;
+  padding: 15px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+a:visited
+{
+  /*color: purple;
+  background-color: transparent;
+  text-decoration: none;*/
+  background-color: cyan;
+  color: silver;
+  padding: 15px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+a:hover
+{
+  color: cyan;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:active
+{
+  color: cyan;
+  background-color: transparent;
+  text-decoration: none;
+}
